@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.home-img{
+    width: 99vw;
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: 211vh;
+    position: relative;
+    z-index: 0;
+    background-attachment:fixed;
+    background-image: url('./img/image.png');
+}
+
+.home-div h1{
+    color: white;
+    position: absolute;
+    z-index: 10;
+    top: 170px;
+    left: 150px;
+    text-align: center;
+    width: 80%;
+    font-weight: bold;
+}
+
+.home-div2{
+    display: flex;
+    margin: 10px;
+    width: 97vw;
+    justify-content: center;
+    
+}
+
+.home-div2-two img{
+    width: 25vw;
+
+}
+.home-div2-one h2{
+    color:green;
+    font-size: 19px;
+    margin: 20px;
+}
+.home-div2-one h1{
+    margin: 20px;
+    font-size: 45px;
+}
+.home-div2-one p{
+    margin: 20px;
+    font-size: 20px;
+}
+.home-div2-one{
+    width: 40vw;
+}
+
+.home-div3{
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+}
+.home-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    
+}
+.home-inner-2{
+    width: 80vw;
+    height: 70vh;
+    
+}
+
+.home-inner-2 h2{
+    color: green;
+    margin-top: 30px;
+    font-size: 19px;
+    
+}
+
+.home-inner-2 h1{
+    margin-top: 5px;
+    
+}
+
+.home-card-all{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.home-card-1{
+    background-color: white;
+    margin: 10px;
+    width: 20vw;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.home-card-1:hover{
+    transform: scale(1.05);
+    transition: all ease .5s;
+    cursor: pointer;
+}
+.home-card-2:hover{
+    transform: scale(1.05);
+    transition: all ease .5s;
+    cursor: pointer;
+}
+.home-card-3:hover{
+    transform: scale(1.05);
+    transition: all ease .5s;
+    cursor: pointer;
+}
+.home-card-1 h2{
+    margin: 10px;
+    color: black;
+    font-size: 23px;
+}
+.home-card-1 p{
+    margin: 10px;
+    color: black;
+    font-size: 17px;
+}
+.home-card-1 img{  
+    width: 17vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.home-card-2{
+    background-color: white;
+    margin: 10px;
+    width: 20vw;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.home-card-2 h2{
+    margin: 10px;
+    color: black;
+    font-size: 23px;
+}
+.home-card-2 p{
+    margin: 10px;
+    color: black;
+    font-size: 17px;
+}
+.home-card-2 img{  
+    width: 17vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.home-card-3{
+    background-color: white;
+    margin: 10px;
+    width: 20vw;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.home-card-3 h2{
+    margin: 10px;
+    color: black;
+    font-size: 23px;
+}
+.home-card-3 p{
+    margin: 10px;
+    color: black;
+    font-size: 17px;
+}
+.home-card-3 img{  
+    width: 17vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.home-footer{
+    background-color: rgb(18, 46, 18);
+    color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-footer h1{
+    margin-left: 20px;
+}
+
+
+.feature-card p {
+    font-size: 16px;
+    color: #555;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.footer-section {
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section p {
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+  
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+    color: #999;
+    
+}
+
+.footer-links ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links h3{
+    margin-bottom: 10px;
+}
+
+.home-div2{
+    margin: 0px;
+    width: 99vw;
+}
+
+.home-div2-two img{
+    border-radius: 10px;
+}
+
+.home-inner{
+    margin: 10px;
+    display: flex;
+   align-items: center;
+   margin: 50px;
+}
+.home-div2-one h2{
+    font-size: 20px;
+}
+.home-div2-one h1{
+    font-size: 30px;
+}
+
+.home-div2-one p{
+    font-size: 18px;
+}
+
+.home-text-align{
+    text-align: center;
+}
+.home-text-align h2{
+    font-size: 25px;
+}
+
+.home-text-align h1{
+    font-size: 35px;
+    font-weight : 600;
+}
+.home-setter{
+    background: linear-gradient(to bottom right, #4a90e2, #ffffff, #4a90e2);
+
+}
+
+.home-div :nth-child(1){
+    text-align: left;
+}
+.home-div :nth-child(2){
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 10px;
+}

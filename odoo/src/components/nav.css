@@ -1,0 +1,146 @@
+
+/* Import Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Navbar Styling */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: #F8FAFC; /* Soft Light Grey */
+    padding: 0 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Logo Styling */
+.nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4A90E2; /* Soft Blue */
+    margin: 0;
+}
+
+/* Navigation Menu */
+.logo ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo ul li {
+    list-style: none;
+}
+
+.logo ul li a {
+    text-decoration: none;
+    color: #333; /* Dark Grey */
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+/* Hover effect for Menu Links */
+.logo ul li a:hover {
+    background-color: #DDEAFB; /* Light Blue */
+    color: #4A90E2;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+/* Navigation Buttons Container */
+.nav-login {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Reduced space between buttons */
+}
+
+/* Buttons - Same Size */
+.list-style {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    min-width: 130px;
+    text-align: center;
+}
+
+/* Sign Up Button */
+.sign-up {
+    background: linear-gradient(135deg, #A5D6A7, #81C784); /* Soft Green */
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(129, 199, 132, 0.4);
+    transition: all 0.4s ease-in-out;
+}
+
+/* Hover Effect for Sign Up */
+.sign-up:hover {
+    background: linear-gradient(135deg, #FFCC80, #FFA726); /* Warm Pastel Orange */
+    transform: scale(1.08);
+    box-shadow: 0px 6px 20px rgba(255, 193, 7, 0.4);
+}
+
+/* Login Button */
+.login-btn {
+    background: white;
+    color: #4A90E2;
+    border: 2px solid #4A90E2;
+    box-shadow: 0px 4px 10px rgba(74, 144, 226, 0.2);
+    transition: all 0.4s ease-in-out;
+}
+
+/* Hover Effect for Login */
+.login-btn:hover {
+    background: linear-gradient(135deg, #64B5F6, #42A5F5); /* Light Blue */
+    color: white;
+    border: none;
+    transform: scale(1.08);
+    box-shadow: 0px 6px 20px rgba(100, 181, 246, 0.6);
+}
+
+.nav-setup{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.language-selector{
+    border: 2px solid blue;
+    width: 12vw;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.login{
+    display: flex;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .nav-login {
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 10px;
+    }
+}
